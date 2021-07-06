@@ -1,21 +1,26 @@
 {
-  "name": "platzitest",
-  "version": "1.0.0",
-  "description": "pruebas unitarias con jest",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "jest",
-    "pruebas",
-    "unitarias"
-  ],
-  "author": "Luis Daniel Altamirano Hernández <luisdaniel.a.h.0307@outlook.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "babel-jest": "^27.0.6",
-    "babel-polyfill": "^6.26.0",
-    "jest": "^27.0.6"
-  }
+    "name": "platzitest",
+    "version": "1.0.0",
+    "description": "pruebas unitarias con jest",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "test:coverage": "jest --coverage",
+        "test:watch": "jest --watch"
+
+    },
+    "keywords": [
+        "jest",
+        "pruebas",
+        "unitarias"
+    ],
+    "author": "Luis Daniel Altamirano Hernández <luisdaniel.a.h.0307@outlook.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/cli": "^7.14.5",
+        "@babel/core": "^7.14.6",
+        "babel-jest": "^27.0.6",
+        "babel-polyfill": "^6.26.0",
+        "jest": "^27.0.6"
+    }
 }
